@@ -10,10 +10,43 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Ranveer Kaur
 
 ```
-Please write your explanation here...
+## Sampling for Infection
+Sampling Frame - 1000 (wedding - 200 + brunches - 800)
+Sample Size - 100 (exactly 10% of people at every event are infected. wedding sample - 20 and brunches sample - 80)
+Sampling Procedure - Stratified Random Sampling Without Replacement
+Function - np.random.choice where replace=False
+Distribution - Binomial distribution with p = 0.10. However, the sampling is without replacement and the independent condition does not meet.
+
+## Sampling for Tracing (primary contact tracing)
+Sampling Frame - Number of Infections, 100
+Sample Size - A proportion of the infected individuals, determined by TRACE_SUCCESS = 0.20
+Sampling Procedure - Simple Random Sampling. Randomly assigning numbers between 0 and 1.
+Distribution - Bernoulli distribution
+
+## Sampling for Tracing (secondary contact tracing)
+Sampling Frame - Individuals traced in the primary contact tracing step.
+Sample Size - event_trace_counts = ppl[ppl['traced'] == True]['event'].value_counts()
+Sampling Procedure - Purposive Sampling (two infections are independently traced to the same source event)
+Function - events_traced = event_trace_counts[event_trace_counts >= SECONDARY_TRACE_THRESHOLD].index
+           ppl.loc[ppl['event'].isin(events_traced) & ppl['infected'], 'traced'] = True
+
+## Relation to blog post - The code models the observations in the blog post about infections, contact tracing with primary and secondary steps. 
+```
+
+```
+The graph obtained from the code is not same as in the blog post. The frequency for the Proportion of cases for Traced to Weddings histogram overlaps more to the Infections from Weddings histogram comparing to the graph in the blog post. 
+
+```
+```
+After running the code multiple times for 100 repetitions, the graph changes everytime because the random functions generate different results eveytime. 
+
+```
+
+```
+By setting the random seed, the code will produce same results for each run. The addition of np.random.seed(42) will produce the same graph every time.
 
 ```
 
