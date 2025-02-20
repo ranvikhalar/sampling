@@ -40,30 +40,35 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: 1
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to identify key factors contributing to employee dissatisfaction, such as hourly pay rate, bonuses, timely appreciation, working hours, job security, workload, etc. By gathering feedback, the company can pinpoint critical areas for improvement and implement strategies to enhance employee satisfaction and retention. Sample the employees for survey including more entry- and lower-level employees.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population - Total number of employees working in the company
+Sampling frame - Subset of employees from which the sample is selected. The employees which are available to participate in the survey
+Sampling units - Each employee from the sampling frame to be surveyed
+Observational units - Each factor that derives employee dissatisfaction like hourly pay rate, bonuses, timely appreciation, working hours, job security, workload, etc.
+
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. Which hourly pay rate category do you fall into? (less than $40000, Between $40000 & $50000, Between $50000 & $60000, over $60000)
+2. How satisfied are you with your current pay rate? (Not satisfied, Somewhat Satisfied, Very Satisfied)
+3. How satisfied are you with the recognition and appreciation you receive at work? (Not satisfied, Somewhat Satisfied, Very Satisfied)
+4. How satisfied are you with your working hours? (Not satisfied, Somewhat Satisfied, Very Satisfied)
+5. Do you feel that your job is secure? (Yes, No)
+6. Do you feel that your workload is fair based on your hourly rate?
+7. How satisfied are you with the work environment & culture? (Not satisfied, Somewhat Satisfied, Very Satisfied)
+8. How satisfied are you with the compensation & benefits? (Not satisfied, Somewhat Satisfied, Very Satisfied)
+9. Do you see career growth opportunities within the company? (Yes, No)
+10. Do you get timely increments based on your overall performance? (Yes, No)
 ```
 
 ## Part B - Survey Evaluation:
