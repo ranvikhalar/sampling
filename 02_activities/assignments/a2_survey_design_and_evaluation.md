@@ -62,7 +62,7 @@ Your 5-10 question survey:
 3. How satisfied are you with the recognition and appreciation you receive at work? (Not satisfied, Somewhat Satisfied, Very Satisfied)
 4. How satisfied are you with your working hours? (Not satisfied, Somewhat Satisfied, Very Satisfied)
 5. Do you feel that your job is secure? (Yes, No)
-6. Do you feel that your workload is fair based on your hourly rate?
+6. Do you feel that your workload is fair based on your hourly rate? (Yes, No)
 7. How satisfied are you with the work environment & culture? (Not satisfied, Somewhat Satisfied, Very Satisfied)
 8. How satisfied are you with the compensation & benefits? (Not satisfied, Somewhat Satisfied, Very Satisfied)
 9. Do you see career growth opportunities within the company? (Yes, No)
