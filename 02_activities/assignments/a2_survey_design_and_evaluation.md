@@ -74,7 +74,29 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type - Stratified Sampling
+2. Sample size - 50,000
+3. Target population - All persons 15 years of age and older living in the ten provinces of Canada excluding full-time (residing for more than six months) residents of institutions.
+4. Sampling frame - It combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. Records on the frame are groups of one or several telephone numbers associated with the same address (or single telephone number in the case a link between a telephone number and an address could not be established).
+5. Survey mode(s) - Invitation letters to the electronic questionnaire OR through CATI (computer assisted telephone interviewing)
+6. Timeline - 2018-09-04 to 2018-12-28
+7. Response rate - 41.9%
+8. Weights - This is the sbasic weighting factor for analysis at the person level, i.e. to calculate estimates of the number of persons (non-institutionalized and aged 15 or over) having one or several given characteristics. In addition to the estimation weights, bootstrap weights have been created for the purpose of design-based variance estimation.
+9. Data processing - Processing used the SSPE set of generalized processing steps and utilities to allow subject matter and survey support staff to specify and run the processing of the survey in a timely fashion with high quality outputs.
+10. Cleaning, imputation, etc :
+    a. Cleaning - All survey records were subjected to computer edits throughout the course of the interview. The CATI system principally edited the flow of the questionnaire and identified out of range values. Edits were performed automatically and manually at various stages of processing at macro and micro levels.
+    b. Imputations - Except in a few cases, all imputations were made using donor records selected through a score function. When a characteristic was the same on the donor record and the recipient record, the donor's score increased. The donor record with the highest score was deemed the "nearest" donor and was chosen to fill in the missing information of the non respondent. If more than one donor record had the highest score, one record was randomly selected. Where donor imputation could not be used, mean imputation among a pool of donors was used.
+11. Sources of error - Sampling and non-sampling errors.
+    a. Sampling error - Data are based on a sample of persons. That is, estimates based on a sample will vary from sample to sample, and typically they will be different from the results that would have been obtained from a complete census.
+    b. Non-sampling error :
+       a. Coverage errors (or imperfect coverage) - It arises when there are differences between the target population and the surveyed population.
+       b. Non-Response error - Non-response could occur at several stages in this survey. There were two stages of information collection: at the household level and at the individual level.
+    Other types of non-sampling errors can include response errors and processing errors.
+12. Limitations, known biases, etc :
+    a. Non-Response Bias - The main method used to reduce nonresponse bias involved a series of adjustments to the survey weights to account for nonresponse as much as possible. For the 2018 GSS, an additional adjustment was added where basic characteristics of non-responding households, such as income and household composition, were extracted from administrative sources and then used to model and adjust nonresponse.
+13. Link to documentation and any additional sources used :
+    a. Link to documentation - The information collected during the 2018 GSS has been linked to the personal tax records (T1, T1FF or T4) of respondents, and tax records of all household members.
+    b. Link to additional sources - The frame for GSS was created using several linked sources, such as the Census, administrative data and billing files.
 ```
 
 ## Rubric
