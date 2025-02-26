@@ -58,10 +58,10 @@ Observational units - Each factor that derives employee dissatisfaction like hou
 Your 5-10 question survey:
 ```
 1. Which hourly pay rate category do you fall into? (less than $40000, Between $40000 & $50000, Between $50000 & $60000, over $60000)
-2. How satisfied are you with your current pay rate? (Not satisfied, Somewhat Satisfied, Very Satisfied)
-3. How satisfied are you with the recognition and appreciation you receive at work? (Not satisfied, Somewhat Satisfied, Very Satisfied)
-4. How satisfied are you with your working hours? (Not satisfied, Somewhat Satisfied, Very Satisfied)
-5. Do you feel that your job is secure? (Yes, No)
+2. What was your previous job title and industry? Write your answer
+3. How many years of total work experience do you have? (0-1 years, 2-5 years, 6-10 years, 10+ years)
+4. Why did you leave your previous job?" (Multiple choice: Career growth, Low pay, Poor management, Job dissatisfaction)
+5. How satisfied are you with your working hours? (Not satisfied, Somewhat Satisfied, Very Satisfied)
 6. Do you feel that your workload is fair based on your hourly rate? (Yes, No)
 7. How satisfied are you with the work environment & culture? (Not satisfied, Somewhat Satisfied, Very Satisfied)
 8. How satisfied are you with the compensation & benefits? (Not satisfied, Somewhat Satisfied, Very Satisfied)
