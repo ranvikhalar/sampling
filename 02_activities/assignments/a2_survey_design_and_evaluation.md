@@ -60,13 +60,14 @@ Your 5-10 question survey:
 1. Which hourly pay rate category do you fall into? (less than $40000, Between $40000 & $50000, Between $50000 & $60000, over $60000)
 2. What was your previous job title and industry? Write your answer
 3. How many years of total work experience do you have? (0-1 years, 2-5 years, 6-10 years, 10+ years)
-4. Why did you leave your previous job? (Multiple choice: Career growth, Low pay, Poor management, Job dissatisfaction)
-5. How satisfied are you with your working hours? (Not satisfied, Somewhat Satisfied, Very Satisfied)
-6. Do you feel that your workload is fair based on your hourly rate? (Yes, No)
-7. How satisfied are you with the work environment & culture? (Not satisfied, Somewhat Satisfied, Very Satisfied)
-8. How satisfied are you with the compensation & benefits? (Not satisfied, Somewhat Satisfied, Very Satisfied)
-9. Do you see career growth opportunities within the company? (Yes, No)
-10. Do you get timely increments based on your overall performance? (Yes, No)
+4. Which category your job position falls? (Low-Level, Entry-Level, Senior-Level)
+5. Why did you leave your previous job? (Multiple choice: Career growth, Low pay, Poor management, Job dissatisfaction)
+6. How satisfied are you with your working hours? (Not satisfied, Somewhat Satisfied, Very Satisfied)
+7. Do you feel that your workload is fair based on your hourly rate? (Yes, No)
+8. How satisfied are you with the work environment & culture? (Not satisfied, Somewhat Satisfied, Very Satisfied)
+9. How satisfied are you with the compensation & benefits? (Not satisfied, Somewhat Satisfied, Very Satisfied)
+10. Do you see career growth opportunities within the company? (Yes, No)
+11. Do you get timely increments based on your overall performance? (Yes, No)
 ```
 
 ## Part B - Survey Evaluation:
